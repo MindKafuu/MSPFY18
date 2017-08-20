@@ -1,0 +1,47 @@
+﻿#form1 {
+    text-align: center;
+}
+
+.text_bc {
+    background-color: #FF6347;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 48px;
+    margin: auto;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+    div.gallery img {
+        width: 399%;
+        height: auto;
+        margin-right: 0px;
+    }
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    height: 545px;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+

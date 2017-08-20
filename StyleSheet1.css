@@ -1,0 +1,12 @@
+﻿.text_bc {
+    background-color: #FF3E96;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin: auto;
+}
